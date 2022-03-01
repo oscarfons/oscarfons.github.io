@@ -2,6 +2,16 @@
 layout: default
 ---
 
+# Proyectos
+## [Proyecto 1]()
+Este es un proyecto en el que se realiza un análisis de las relaciones comerciales de Colombia.
+## [Proyecto 2]()
+Este es un proyecto en el que se desarrolla una librería de análisis de información.
+## [Proyecto 3]()
+Este es un proyecto en el que se detecta el fraude a partir de un modelo de ML.
+## [Proyecto 4]()
+Este es un proyecto en el que se utiliza python base para limpiar una base de datos.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
