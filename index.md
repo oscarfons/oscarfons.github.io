@@ -12,7 +12,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Clase 1: MLxE
 
-```{python}
+```python
 print('hola, mundo')
 
 ```
