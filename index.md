@@ -1,5 +1,5 @@
 ---
-layout: default
+
 ---
 
 # Proyectos
@@ -12,7 +12,7 @@ Este es un proyecto en el que se detecta el fraude a partir de un modelo de ML.
 ## [Proyecto 4]()
 Este es un proyecto en el que se utiliza python base para limpiar una base de datos.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+
 
 [Link to another page](./another-page.html).
 
@@ -27,13 +27,13 @@ print('hola, mundo')
 
 ```
 
-## Header 2
+# Clase 2:
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+# Clase 3:
 
 ```js
 // Javascript code with syntax highlighting.
@@ -50,19 +50,19 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+# Clase 4
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+# Clase 5
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+# Clase 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -132,5 +132,5 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 
 ```
-The final element.
+
 ```
