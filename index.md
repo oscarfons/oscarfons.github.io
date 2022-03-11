@@ -45,7 +45,8 @@ https://colab.research.google.com/drive/1cKMgsVz_fzFKlPPZ5b5U7E3uhn7-cSNB#scroll
 
 > Se conoció la función de diccionario utilizando el flujo de control (condicionales)  
 Los bucles (For and while), listas (list), while condition y como digitar funciones (def).
-def par_impar(x):   #Así se verifica si es par o impar
+
+```def par_impar(x):   #Así se verifica si es par o impar
 
 ```if x%2==0:
     print('par')
@@ -55,6 +56,7 @@ def par_impar(x):   #Así se verifica si es par o impar
 ## Clase 3:
 
  Se introdujeron algunas funciones anónimas, generadores y expresiones.
+
 ```for i in gen_cuads:
   print(i)
 
@@ -63,6 +65,7 @@ def par_impar(x):   #Así se verifica si es par o impar
 ## Clase 4
 
  Se conocieron alguna clase de objetos (Orientados a procesos y funcional, crear objetos, luego se agrega el objeto que usualmente se escribe) para realizar atributos y estadistícos.
+
 ```class Estadisticos:
   def __init__(self,datos):
     self.datos=datos
@@ -79,7 +82,9 @@ def par_impar(x):   #Así se verifica si es par o impar
 
  Se agregó la función *vec* y luego *np.array* para crear matrices
  Se utilizaron los conociminetos previamente adquiridos para desglozar los datos del sueldo mencionados en el proyecto 2  
+
 ```!pip install wooldridge
+
 ```class Estadisticos:
   def __init__(self,x2):
     self.x2=x2
@@ -100,6 +105,8 @@ def par_impar(x):   #Así se verifica si es par o impar
     return self.varianza()**(1/2)
   def coeficiente_variacion(self):
     return self.desviacion_estandar()/self.media()
+
+
 # Segundo corte
 
 
