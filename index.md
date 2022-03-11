@@ -55,7 +55,7 @@ Los bucles (For and while), listas (list), while condition y como digitar funcio
     
 ## Clase 3:
 
- Se introdujeron algunas funciones anónimas, generadores y expresiones.
+> Se introdujeron algunas funciones anónimas, generadores y expresiones.
 
 ```for i in gen_cuads:
   print(i)
@@ -64,33 +64,30 @@ Los bucles (For and while), listas (list), while condition y como digitar funcio
 
 ## Clase 4
 
- Se conocieron alguna clase de objetos (Orientados a procesos y funcional, crear objetos, luego se agrega el objeto que usualmente se escribe) para realizar atributos y estadistícos.
+> Se conocieron alguna clase de objetos (Orientados a procesos y funcional, crear objetos, luego se agrega el objeto que usualmente se escribe) para realizar atributos y estadistícos.
  
 
-```class Estadisticos:
-
-
-def __init__(self,datos):
-
-self.datos=datos
-
-def media(self):
-
-return sum(self.datos)/len(self.datos)
-
-def varianza(self):
-
-media_x=self.media()
-
-vec=[(i-media_x)**2 for i in self.datos]
-
-return sum(vec)/(len(vec)-1)
-  def desviacion_estandar(self):
-    return self.varianza()**(1/2)
+class Silla:
+  def __init__(self, color, precio, ocupado=False):
+    self.color=color
+    self.precio=precio
+    self.ocupado=ocupado
+  def sentarse(self):
+    if self.ocupado==False:
+      print('Si puede sentarse')
+      self.ocupado=True
+    else:
+      print('No puede sentarse')
+  def pararse(self):
+    if self.ocupado==True:
+      print('Desocupar la silla para sentarme. Entonces la silla esta libre')
+      self.ocupado=True
+    else:
+      print('Sentarse')
 
 ## Clase 5
 
- Se agregó la función *vec* y luego *np.array* para crear matrices
+> Se agregó la función *vec* y luego *np.array* para crear matrices
  Se utilizaron los conociminetos previamente adquiridos para desglozar los datos del sueldo mencionados en el proyecto 2  
 
 ```!pip install wooldridge
