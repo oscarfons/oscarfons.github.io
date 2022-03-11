@@ -36,7 +36,7 @@ https://colab.research.google.com/drive/1cKMgsVz_fzFKlPPZ5b5U7E3uhn7-cSNB#scroll
 
 ## Clase 1: MLxE
 
-> Por medio de la plataforma Python se realizaron algunos Rudimentos, operadores aritméticos, operadores de comparación, operadores lógicos, variables y tipos de datos como lenguaje básico del programa.
+ Por medio de la plataforma Python se realizaron algunos Rudimentos, operadores aritméticos, operadores de comparación, operadores lógicos, variables y tipos de datos como lenguaje básico del programa.
 
 
 ```print('Hola,mundo)
@@ -65,16 +65,26 @@ Los bucles (For and while), listas (list), while condition y como digitar funcio
 ## Clase 4
 
  Se conocieron alguna clase de objetos (Orientados a procesos y funcional, crear objetos, luego se agrega el objeto que usualmente se escribe) para realizar atributos y estadistícos.
+ 
 
 ```class Estadisticos:
-  def __init__(self,datos):
-    self.datos=datos
-  def media(self):
-    return sum(self.datos)/len(self.datos)
-  def varianza(self):
-    media_x=self.media()
-    vec=[(i-media_x)**2 for i in self.datos]
-    return sum(vec)/(len(vec)-1)
+
+
+def __init__(self,datos):
+
+self.datos=datos
+
+def media(self):
+
+return sum(self.datos)/len(self.datos)
+
+def varianza(self):
+
+media_x=self.media()
+
+vec=[(i-media_x)**2 for i in self.datos]
+
+return sum(vec)/(len(vec)-1)
   def desviacion_estandar(self):
     return self.varianza()**(1/2)
 
@@ -84,6 +94,7 @@ Los bucles (For and while), listas (list), while condition y como digitar funcio
  Se utilizaron los conociminetos previamente adquiridos para desglozar los datos del sueldo mencionados en el proyecto 2  
 
 ```!pip install wooldridge
+
 
 ```class Estadisticos:
   def __init__(self,x2):
